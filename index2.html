@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@300;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <h1 class="">Hello World!</h1> -->
+    <!-- <script class="" src="potato.js"></script> -->
+    
+    <div class="container">
+        <header>
+            <div class="header__left">
+                <span>Links</span>
+                <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="header__right">
+                <ul>
+                    <li class="weather"><i class="fa-regular fa-sun"></i></li>
+                    <li class="weather">24&#176;</li>
+                </ul>
+                <div>Jungnang-gu</div>
+            </div>
+        </header>
+        <main>
+            <div class="time">
+                <div class="mousehover"><i class="fa-solid fa-reply"></i></div>
+                <div id="clock">3:49</div>
+                <div class="mousehover"><i class="fa-solid fa-angles-right"></i></div>
+            </div>
+            <div class="name">
+                <h1 class="question">What's your name?</h1>
+                <div class="width50">
+                    <div class="answer">
+                        <input type="text" id="getName" class="getAnswer" maxlength="15" required>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="focus">
+                <h1 class="question">What is your main focus for today?</h1>
+                <div class="width50">
+                    <div class="answer">
+                        <input type="text" id="getTodo" class="getAnswer">
+                        <ol class="todolist">
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <div>
+                <span class=""><i class="fa-solid fa-gear"></i></span>
+                <span class="">Maligne Lake, AB, Canada</span>
+            </div>
+            <div class="quotes">
+                <span class="">"If you can imagine it, you can achieve it. If you can dream it, you can become it."</span>
+            </div>
+            <div>
+                <span class=""> Todo</span>
+            </div>
+        </footer>
+    </div>
+
+    
+
+    <!-- <ul class="footer">
+        <li>
+            <span class=""><i class="fa-solid fa-gear"></i></span>
+            <span class="">Maligne Lake, AB, Canada</span>
+        </li>
+        <li>"If you can imagine it, you can achieve it. If you can dream it, you can become it."</li>
+        <li><span>Todo</span></li>
+    </ul> -->
+
+    
+
+    <script src="https://kit.fontawesome.com/2b7616fd3a.js" crossorigin="anonymous"></script>
+    <script src="js/name2.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
