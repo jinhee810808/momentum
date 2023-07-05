@@ -1,43 +1,43 @@
 const quotes = [
     {
-    quote: 'I never dreamed about success, I worked for it',
-    author: 'Estee Lauder'
+    quote: '삶이 있는 한 희망은 있다',
+    author: '키케로'
     },
     {
-    quote: 'Do not try to be original, just try to be good.',
-    author: 'Paul Rand'
+    quote: '산다는것 그것은 치열한 전투이다.',
+    author: '로망로랑'
     },
     {
-    quote: 'Do not be afraid to give up the good to go for the great',
-    author: 'John D. Rockefeller'
+    quote: '하루에 3시간을 걸으면 7년 후에 지구를 한바퀴 돌 수 있다.',
+    author: '사무엘 존슨'
     },
     {
-    quote: 'If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.',
-    author: 'Martin Luther King Jr.'
+    quote: '언제나 현재에 집중할수 있다면 행복할것이다.',
+    author: '파울로 코엘료'
     },
     {
-    quote: 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.',
-    author: 'Thomas Edison'
+    quote: '진정으로 웃으려면 고통을 참아야하며 , 나아가 고통을 즐길 줄 알아야 해',
+    author: '찰리 채플린'
     },
     {
-    quote: 'The fastest way to change yourself is to hang out with people who are already the way you want to be',
-    author: 'REid Hoffman'
+    quote: '직업에서 행복을 찾아라. 아니면 행복이 무엇인지 절대 모를 것이다',
+    author: '엘버트 허버트'
     },
     {
-    quote: 'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations',
-    author: 'Tim O Reilly'
+    quote: '신은 용기있는자를 결코 버리지 않는다',
+    author: '켈러'
     },
     {
-    quote: 'Some people dream of success, while other people get up every morning and make it happen',
-    author: 'Wayne Huizenga'
+    quote: '행복의 문이 하나 닫히면 다른 문이 열린다 그러나 우리는 종종 닫힌 문을 멍하니 바라보다가 우리를 향해 열린 문을 보지 못하게 된다',
+    author: '헬렌 켈러'
     },
     {
-    quote: 'The only thing worse than starting something and falling.. is not starting something',
-    author: 'SEth Godin'
+    quote: '절대 어제를 후회하지 마라. 인생은 오늘의 나 안에 있고 내일은 스스로 만드는 것이다.',
+    author: '론허바드'
     },
     {
-    quote: 'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-    author: 'Jim Rohn'
+    quote: '피할수 없으면 즐겨라.',
+    author: '로버트 엘리엇'
     },
     ];
 

@@ -13,7 +13,8 @@ if(localStorage.todos) {
 }
 
 function todoDelete (event) {
-    const li = event.target.parentElement;
+    const span = event.target.parentElement;
+    const li = span.parentElement;
 
     const newTodolisted = parseTodos.filter((item) => item.id !== parseInt(li.id))
     console.log("li.id ", parseInt(li.id));
@@ -65,9 +66,12 @@ function todoListMake (a) {
     todoelement.id = todoObject(a).id;
     const todoelement_span = todoelement.appendChild(span);
     const todoelement_delete = todoelement.appendChild(button);
-    todoelement_span.innerText = todoObject(a).text;
-    todoelement_delete.innerText = 'delete';
+    todoelement_delete.classList.add('transparent');
 
+    todoelement_span.innerText = todoObject(a).text;
+    // todoelement_delete.innerText = 'delete';
+    todoelement_delete.innerHTML = '<i class="fa-solid fa-trash"></i>';
+    
     todoelement_delete.addEventListener('click', todoDelete);
 }
 
@@ -87,7 +91,10 @@ function parseTodoListMake (a) {
     const todoelement_span = todoelement.appendChild(span);
     const todoelement_delete = todoelement.appendChild(button);
     todoelement_span.innerText = a.text;
-    todoelement_delete.innerText = 'delete';
+    todoelement_delete.classList.add('transparent');
+    // todoelement_delete.innerText = 'delete';
+    todoelement_delete.innerHTML = ` <i class="fa-solid fa-trash"></i>`;
+    
 
     todoelement_delete.addEventListener('click', todoDelete);
 
